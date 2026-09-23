@@ -7948,11 +7948,11 @@ Error generating stack: `+o.message+`
           .floating-contact { right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
           .floating-contact__trigger { width: 50px; height: 50px; }
         }
-      `})]})}const A1={github:"https://github.com/Sufiyan-quraishi",linkedin:"https://www.linkedin.com/in/mohammad-sufiyan-quraishi/"},ZA="/sufiyan-portfolio/assets/mohammad-sufiyan-C7PHkO10.jpg",WA="/sufiyan-portfolio/assets/Mohammad_Sufiyan_Resume-Be23YnH5.pdf",GA="/sufiyan-portfolio/assets/hero-dark-BGbSlQZz.jpg",XA="/sufiyan-portfolio/assets/hero-light-D6ikohx4.jpg",$A="/sufiyan-portfolio/assets/how-it-works-Eckh-Lkl.jpg",CS="/sufiyan-portfolio/assets/admin-control-center-D5fnIWaM.jpg",IS="/sufiyan-portfolio/assets/hero-BcCWU4GL.jpg",KA="/sufiyan-portfolio/assets/about-Bu4lA_Ak.jpg",QA="/sufiyan-portfolio/assets/workflow-CJ_5p6QG.jpg",JA="/sufiyan-portfolio/assets/tech-stack-C0EvEC7h.jpg",YA="/sufiyan-portfolio/assets/java-fullstack-simplilearn-T0G7dTug.jpg",fe={profile:{photo:ZA},resume:{pdf:WA,fileName:"Mohammad_Sufiyan_Resume.pdf"},projects:{eduManage:{gallery:[{src:GA,caption:"Landing page — dark mode"},{src:CS,caption:"Admin Control Center — core operational modules"},{src:XA,caption:"Landing page — light mode"},{src:$A,caption:"How It Works — enrollment to certification flow"}],cover:CS},resumeAi:{gallery:[{src:IS,caption:"Home — AI resume & cover letter tool"},{src:QA,caption:"Product workflow — draft, tailor, check against the job description"},{src:KA,caption:"About — what the product does"},{src:JA,caption:"About — how it is built (tech stack)"}],cover:IS}},certificates:{javaFullStack:YA}},eH=[{label:"Java",style:{top:"8%",left:"-8%"}},{label:"Spring Boot",style:{top:"28%",right:"-14%"}},{label:"React",style:{bottom:"20%",left:"-12%"}},{label:"REST APIs",style:{bottom:"2%",right:"-6%"}}];function tH(){const e=t=>{var a;t.preventDefault(),(a=document.getElementById("projects"))==null||a.scrollIntoView({behavior:"smooth"})};return l.jsxs("section",{id:"home",className:"hero",children:[l.jsx("div",{className:"hero__glow","aria-hidden":"true"}),l.jsx("div",{className:"hero__grid","aria-hidden":"true"}),l.jsxs("div",{className:"container hero__inner",children:[l.jsxs("div",{className:"hero__copy",children:[l.jsx("span",{className:"hero__badge",children:F.heroBadge}),l.jsxs("h1",{className:"hero__heading",children:[F.heroHeadingPrefix," ",l.jsx("span",{className:"text-gradient",children:F.heroHeadingHighlight})]}),l.jsx("p",{className:"hero__desc",children:F.heroDescription}),l.jsxs("div",{className:"hero__ctas",children:[l.jsxs("a",{href:"#projects",onClick:e,className:"btn btn-primary",children:["View My Work ",l.jsx(Nn,{size:17})]}),l.jsxs("a",{href:fe.resume.pdf,download:fe.resume.fileName,className:"btn btn-secondary",children:[l.jsx(j1,{size:17})," Download Resume"]})]}),l.jsxs("div",{className:"hero__quick","aria-label":"Quick contact",children:[l.jsx("a",{href:A1.github,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"GitHub",children:l.jsx($e,{size:18})}),l.jsx("a",{href:A1.linkedin,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"LinkedIn",children:l.jsx(kn,{size:18})}),l.jsx("a",{href:le.email,className:"hero__quick-link","aria-label":"Email",children:l.jsx(a1,{size:18})}),l.jsx("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"WhatsApp",children:l.jsx(Ae,{size:18})})]})]}),l.jsx("div",{className:"hero__visual",children:l.jsxs("div",{className:"hero__portrait-wrap",children:[l.jsx("div",{className:"hero__portrait-glow","aria-hidden":"true"}),l.jsx("img",{src:fe.profile.photo,alt:`Portrait of ${F.name}, ${F.title}`,className:"hero__portrait",width:"480",height:"600"}),eH.map(t=>l.jsx("span",{className:"hero__tech-tag",style:t.style,children:t.label},t.label))]})})]}),l.jsx("style",{children:`
+      `})]})}const A1={github:"https://github.com/Sufiyan-quraishi",linkedin:"https://www.linkedin.com/in/mohammad-sufiyan-quraishi/"},ZA="/sufiyan-portfolio/assets/mohammad-sufiyan-C7PHkO10.jpg",WA="/sufiyan-portfolio/assets/Mohammad_Sufiyan_Resume-Be23YnH5.pdf",GA="/sufiyan-portfolio/assets/hero-dark-BGbSlQZz.jpg",XA="/sufiyan-portfolio/assets/hero-light-D6ikohx4.jpg",$A="/sufiyan-portfolio/assets/how-it-works-Eckh-Lkl.jpg",CS="/sufiyan-portfolio/assets/admin-control-center-D5fnIWaM.jpg",IS="/sufiyan-portfolio/assets/hero-BcCWU4GL.jpg",KA="/sufiyan-portfolio/assets/about-Bu4lA_Ak.jpg",QA="/sufiyan-portfolio/assets/workflow-CJ_5p6QG.jpg",JA="/sufiyan-portfolio/assets/tech-stack-C0EvEC7h.jpg",YA="/sufiyan-portfolio/assets/java-fullstack-simplilearn-T0G7dTug.jpg",fe={profile:{photo:ZA},resume:{pdf:WA,fileName:"Mohammad_Sufiyan_Resume.pdf"},projects:{eduManage:{gallery:[{src:GA,caption:"Landing page — dark mode"},{src:CS,caption:"Admin Control Center — core operational modules"},{src:XA,caption:"Landing page — light mode"},{src:$A,caption:"How It Works — enrollment to certification flow"}],cover:CS},resumeAi:{gallery:[{src:IS,caption:"Home — AI resume & cover letter tool"},{src:QA,caption:"Product workflow — draft, tailor, check against the job description"},{src:KA,caption:"About — what the product does"},{src:JA,caption:"About — how it is built (tech stack)"}],cover:IS}},certificates:{javaFullStack:YA}},eH=[{label:"Java",style:{top:"8%",left:"-8%"}},{label:"Spring Boot",style:{top:"28%",right:"-12%"}},{label:"React",style:{bottom:"20%",left:"-10%"}},{label:"REST APIs",style:{bottom:"4%",right:"-6%"}}];function tH(){const e=t=>{var a;t.preventDefault(),(a=document.getElementById("projects"))==null||a.scrollIntoView({behavior:"smooth"})};return l.jsxs("section",{id:"home",className:"hero",children:[l.jsx("div",{className:"hero__glow","aria-hidden":"true"}),l.jsx("div",{className:"hero__grid","aria-hidden":"true"}),l.jsxs("div",{className:"container hero__inner",children:[l.jsxs("div",{className:"hero__copy",children:[l.jsx("span",{className:"hero__badge",children:F.heroBadge}),l.jsxs("h1",{className:"hero__heading",children:[F.heroHeadingPrefix," ",l.jsx("span",{className:"text-gradient",children:F.heroHeadingHighlight})]}),l.jsx("p",{className:"hero__desc",children:F.heroDescription}),l.jsxs("div",{className:"hero__ctas",children:[l.jsxs("a",{href:"#projects",onClick:e,className:"btn btn-primary",children:["View My Work ",l.jsx(Nn,{size:17})]}),l.jsxs("a",{href:fe.resume.pdf,download:fe.resume.fileName,className:"btn btn-secondary",children:[l.jsx(j1,{size:17})," Download Resume"]})]}),l.jsxs("div",{className:"hero__quick","aria-label":"Quick contact",children:[l.jsx("a",{href:A1.github,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"GitHub",children:l.jsx($e,{size:18})}),l.jsx("a",{href:A1.linkedin,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"LinkedIn",children:l.jsx(kn,{size:18})}),l.jsx("a",{href:le.email,className:"hero__quick-link","aria-label":"Email",children:l.jsx(a1,{size:18})}),l.jsx("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"WhatsApp",children:l.jsx(Ae,{size:18})})]})]}),l.jsx("div",{className:"hero__visual",children:l.jsxs("div",{className:"hero__portrait-wrap",children:[l.jsx("div",{className:"hero__portrait-glow","aria-hidden":"true"}),l.jsx("img",{src:fe.profile.photo,alt:`Portrait of ${F.name}, ${F.title}`,className:"hero__portrait",loading:"eager"}),eH.map(t=>l.jsx("span",{className:"hero__tech-tag",style:t.style,children:t.label},t.label))]})})]}),l.jsx("style",{children:`
         .hero {
           position: relative;
           overflow: hidden;
-          padding: 64px 0 96px;
+          padding: 48px 0 80px;
         }
         .hero__glow {
           position: absolute; inset: 0; background: var(--glow);
@@ -7972,7 +7972,7 @@ Error generating stack: `+o.message+`
           grid-template-columns: 1.05fr 0.95fr;
           gap: 48px;
           align-items: center;
-          padding-top: 40px;
+          padding-top: 24px;
         }
         .hero__badge {
           display: inline-block;
@@ -7984,28 +7984,28 @@ Error generating stack: `+o.message+`
           animation: fade-slide 0.6s var(--ease) both;
         }
         .hero__heading {
-          margin-top: 22px;
-          font-size: clamp(36px, 5vw, 58px);
+          margin-top: 18px;
+          font-size: clamp(30px, 4.5vw, 56px);
           font-weight: 800;
-          line-height: 1.08;
+          line-height: 1.15;
           letter-spacing: -0.03em;
           animation: fade-slide 0.6s var(--ease) 0.08s both;
         }
         .hero__desc {
-          margin-top: 22px;
+          margin-top: 18px;
           max-width: 480px;
-          font-size: 18px;
-          line-height: 1.65;
+          font-size: 17px;
+          line-height: 1.6;
           color: var(--text-2);
           animation: fade-up 0.6s var(--ease) 0.18s both;
         }
         .hero__ctas {
-          margin-top: 34px;
+          margin-top: 28px;
           display: flex; flex-wrap: wrap; gap: 14px;
           animation: fade-up 0.6s var(--ease) 0.26s both;
         }
         .hero__quick {
-          margin-top: 30px;
+          margin-top: 24px;
           display: flex; gap: 10px;
           animation: fade-up 0.6s var(--ease) 0.34s both;
         }
@@ -8018,33 +8018,44 @@ Error generating stack: `+o.message+`
         }
         .hero__quick-link:hover { color: var(--primary); border-color: var(--primary); transform: translateY(-3px); }
 
-        .hero__visual { display: flex; justify-content: center; }
+        .hero__visual { 
+          display: flex; 
+          justify-content: center; 
+          align-items: center;
+        }
         .hero__portrait-wrap {
           position: relative;
-          width: min(360px, 78vw);
+          width: 320px;
+          max-width: 85vw;
+          margin: 0 auto;
           animation: portrait-in 0.7s var(--ease) 0.15s both;
         }
         .hero__portrait-glow {
-          position: absolute; inset: -30px;
-          background: radial-gradient(circle, rgba(59,130,246,0.28), transparent 65%);
-          filter: blur(10px);
+          position: absolute; inset: -20px;
+          background: radial-gradient(circle, rgba(59,130,246,0.25), transparent 70%);
+          filter: blur(12px);
           z-index: 0;
         }
         .hero__portrait {
           position: relative; z-index: 1;
-          width: 100%; aspect-ratio: 4/5; object-fit: cover;
-          border-radius: var(--radius-lg);
+          display: block;
+          width: 100%;
+          aspect-ratio: 4 / 4.8;
+          object-fit: cover;
+          object-position: top center;
+          border-radius: 24px;
           border: 1px solid var(--border);
           box-shadow: var(--shadow-lg);
         }
         .hero__tech-tag {
           position: absolute; z-index: 2;
-          font-size: 12.5px; font-weight: 600;
-          padding: 8px 14px; border-radius: 999px;
+          font-size: 12px; font-weight: 600;
+          padding: 6px 12px; border-radius: 999px;
           background: var(--surface); border: 1px solid var(--border);
           box-shadow: var(--shadow-md);
           color: var(--text);
           animation: float 5s ease-in-out infinite;
+          white-space: nowrap;
         }
         .hero__tech-tag:nth-child(2) { animation-delay: 0.6s; }
         .hero__tech-tag:nth-child(3) { animation-delay: 1.2s; }
@@ -8056,14 +8067,35 @@ Error generating stack: `+o.message+`
         @keyframes float { 0%, 100% { transform: translateY(0);} 50% { transform: translateY(-8px);} }
 
         @media (max-width: 1024px) {
-          .hero__inner { grid-template-columns: 1fr; text-align: center; }
+          .hero { padding: 36px 0 64px; }
+          .hero__inner { grid-template-columns: 1fr; text-align: center; gap: 36px; }
           .hero__desc { margin-left: auto; margin-right: auto; }
           .hero__ctas, .hero__quick { justify-content: center; }
-          .hero__visual { order: -1; margin-bottom: 8px; }
-          .hero__portrait-wrap { width: min(300px, 68vw); }
+          .hero__visual { order: -1; margin-bottom: 4px; }
+          .hero__portrait-wrap { 
+            width: 260px;
+            max-width: 70vw; 
+          }
         }
-        @media (max-width: 480px) {
-          .hero__tech-tag { display: none; }
+
+        @media (max-width: 640px) {
+          .hero { padding: 24px 0 48px; }
+          .hero__portrait-wrap { 
+            width: 220px; 
+            max-width: 62vw;
+          }
+          .hero__portrait {
+            border-radius: 20px;
+          }
+          .hero__heading {
+            font-size: 28px;
+          }
+          .hero__desc {
+            font-size: 15px;
+          }
+          .hero__tech-tag { 
+            display: none; 
+          }
         }
       `})]})}const aH=[{year:"2022",title:"HSC Completed",description:"Finished higher secondary education at Nida Junior College, Amravati.",icon:"GraduationCap"},{year:"2025",title:"BCA Completed",description:"Graduated with a Bachelor of Computer Applications from Sant Gadge Baba University.",icon:"GraduationCap"},{year:"2025",title:"Java Full Stack Certification",description:"Completed the Java Full Stack Developer course via Simplilearn / SkillUP.",icon:"Award"},{year:"2025",title:"Software Engineering Internship",description:"Joined Fortune Cloud Technologies as a Junior Software Engineer Intern.",icon:"Briefcase"},{year:"2025",title:"EduManage & Resume AI",description:"Designed and built EduManage and the AI Resume Builder & ATS Analyzer.",icon:"Code2"},{year:"Ongoing",title:"Continuous Learning",description:"Deepening skills in Spring Boot, React and system design through practical projects.",icon:"Sparkles"}],nH=[{icon:"Layers",title:"Full Stack Development",description:"Building complete applications end-to-end, from database to UI."},{icon:"Coffee",title:"Java & Spring Boot",description:"Designing secure, scalable backend services and REST APIs."},{icon:"MonitorSmartphone",title:"Modern Web Applications",description:"Crafting responsive, user-friendly interfaces with React."},{icon:"Hammer",title:"Project-Driven Development",description:"Learning by shipping real, working software."}];function rH(){return l.jsxs("section",{className:"highlight-strip",children:[l.jsx("div",{className:"container highlight-strip__grid",children:nH.map(e=>{const t=sI[e.icon]||Je;return l.jsxs("div",{className:"highlight-card card",children:[l.jsx("div",{className:"highlight-card__icon",children:l.jsx(t,{size:20})}),l.jsx("h3",{className:"highlight-card__title",children:e.title}),l.jsx("p",{className:"highlight-card__desc",children:e.description})]},e.title)})}),l.jsx("style",{children:`
         .highlight-strip { padding: 0 0 100px; }
