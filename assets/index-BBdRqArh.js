@@ -7828,30 +7828,31 @@ Error generating stack: `+o.message+`
         .theme-switcher__name { font-size: 13.5px; font-weight: 600; color: var(--text); }
         .theme-switcher__desc { font-size: 11.5px; color: var(--text-2); }
         .theme-switcher__check { margin-left: auto; color: var(--primary); flex-shrink: 0; }
-      `})]})}const F={name:"Mohammad Sufiyan",title:"Full Stack Developer",email:"sufiquraishiiii@gmail.com",phoneDisplay:"+91 8855815751",phoneIntl:"918855815751",heroBadge:"SOFTWARE DEVELOPER",heroHeadingPrefix:"Building Digital Experiences",heroHeadingHighlight:"That Solve Real Problems.",heroDescription:"Hi, I'm Mohammad Sufiyan — a Full Stack Developer focused on building practical, scalable and user-friendly software solutions.",aboutIntro:"Enthusiastic Full Stack Developer with hands-on experience building web applications using Java, Spring Boot, React.js and REST APIs. Interested in creating scalable, secure and practical software solutions while continuously improving technical and problem-solving skills.",whatsappDefaultMessage:"Hi Sufiyan, I visited your portfolio and would like to connect with you.",whatsappProjectMessage:"Hi Sufiyan, I saw your portfolio and would like to discuss a project with you."},le={whatsapp:`https://wa.me/${F.phoneIntl}?text=${encodeURIComponent(F.whatsappDefaultMessage)}`,whatsappProject:`https://wa.me/${F.phoneIntl}?text=${encodeURIComponent(F.whatsappProjectMessage)}`,email:`mailto:${F.email}`,phone:`tel:+${F.phoneIntl}`};function OA(e){const[t,a]=z.useState(e[0]);return z.useEffect(()=>{const r=e.map(o=>document.getElementById(o)).filter(Boolean);if(r.length===0)return;const i=new IntersectionObserver(o=>{const c=o.filter(d=>d.isIntersecting).sort((d,h)=>h.intersectionRatio-d.intersectionRatio);c[0]&&a(c[0].target.id)},{rootMargin:"-30% 0px -55% 0px",threshold:[0,.25,.5,.75,1]});return r.forEach(o=>i.observe(o)),()=>i.disconnect()},[e]),t}const wL=[{id:"home",label:"Home"},{id:"about",label:"About"},{id:"skills",label:"Skills"},{id:"projects",label:"Projects"},{id:"experience",label:"Experience"},{id:"certificates",label:"Certificates"},{id:"resume",label:"Resume"},{id:"contact",label:"Contact"}];function NA(){const[e,t]=z.useState(!1),[a,r]=z.useState(!1),i=OA(wL.map(c=>c.id));z.useEffect(()=>{const c=()=>t(window.scrollY>12);return c(),window.addEventListener("scroll",c,{passive:!0}),()=>window.removeEventListener("scroll",c)},[]),z.useEffect(()=>(document.body.style.overflow=a?"hidden":"",()=>{document.body.style.overflow=""}),[a]);const o=c=>d=>{var h;d.preventDefault(),r(!1),(h=document.getElementById(c))==null||h.scrollIntoView({behavior:"smooth",block:"start"})};return l.jsxs("header",{className:`navbar ${e?"is-scrolled":""}`,children:[l.jsxs("div",{className:"container navbar__inner",children:[l.jsxs("a",{href:"#home",className:"navbar__brand",onClick:o("home"),"aria-label":"Go to top",children:[l.jsx("span",{className:"navbar__mark",children:"S"}),l.jsx("span",{className:"navbar__name",children:F.name})]}),l.jsx("nav",{className:"navbar__links","aria-label":"Primary",children:wL.map(c=>l.jsx("a",{href:`#${c.id}`,onClick:o(c.id),className:`navbar__link ${i===c.id?"is-active":""}`,children:c.label},c.id))}),l.jsxs("div",{className:"navbar__actions",children:[l.jsx(LS,{compact:!0}),l.jsx("a",{href:"#contact",onClick:o("contact"),className:"btn btn-primary btn-sm navbar__cta",children:"Let’s Connect"}),l.jsx("button",{className:"navbar__burger","aria-label":a?"Close menu":"Open menu","aria-expanded":a,onClick:()=>r(c=>!c),children:a?l.jsx(n1,{size:22}):l.jsx(Vr,{size:22})})]})]}),a&&l.jsxs("div",{className:"mobile-menu",role:"dialog","aria-modal":"true",children:[l.jsx("nav",{className:"mobile-menu__links","aria-label":"Mobile",children:wL.map(c=>l.jsx("a",{href:`#${c.id}`,onClick:o(c.id),className:`mobile-menu__link ${i===c.id?"is-active":""}`,children:c.label},c.id))}),l.jsx("div",{className:"mobile-menu__theme",children:l.jsx(LS,{})}),l.jsx("a",{href:"#contact",onClick:o("contact"),className:"btn btn-primary mobile-menu__cta",children:"Let’s Connect"})]}),l.jsx("style",{children:`
+      `})]})}const F={name:"Mohammad Sufiyan",title:"Full Stack Developer",email:"sufiquraishiiii@gmail.com",phoneDisplay:"+91 8855815751",phoneIntl:"918855815751",heroBadge:"SOFTWARE DEVELOPER",heroHeadingPrefix:"Building Digital Experiences",heroHeadingHighlight:"That Solve Real Problems.",heroDescription:"Hi, I'm Mohammad Sufiyan — a Full Stack Developer focused on building practical, scalable and user-friendly software solutions.",aboutIntro:"Enthusiastic Full Stack Developer with hands-on experience building web applications using Java, Spring Boot, React.js and REST APIs. Interested in creating scalable, secure and practical software solutions while continuously improving technical and problem-solving skills.",whatsappDefaultMessage:"Hi Sufiyan, I visited your portfolio and would like to connect with you.",whatsappProjectMessage:"Hi Sufiyan, I saw your portfolio and would like to discuss a project with you."},le={whatsapp:`https://wa.me/${F.phoneIntl}?text=${encodeURIComponent(F.whatsappDefaultMessage)}`,whatsappProject:`https://wa.me/${F.phoneIntl}?text=${encodeURIComponent(F.whatsappProjectMessage)}`,email:`mailto:${F.email}`,phone:`tel:+${F.phoneIntl}`};function OA(e){const[t,a]=z.useState(e[0]);return z.useEffect(()=>{const r=e.map(o=>document.getElementById(o)).filter(Boolean);if(r.length===0)return;const i=new IntersectionObserver(o=>{const c=o.filter(d=>d.isIntersecting).sort((d,h)=>h.intersectionRatio-d.intersectionRatio);c[0]&&a(c[0].target.id)},{rootMargin:"-30% 0px -55% 0px",threshold:[0,.25,.5,.75,1]});return r.forEach(o=>i.observe(o)),()=>i.disconnect()},[e]),t}const wL=[{id:"home",label:"Home"},{id:"about",label:"About"},{id:"skills",label:"Skills"},{id:"projects",label:"Projects"},{id:"experience",label:"Experience"},{id:"certificates",label:"Certificates"},{id:"resume",label:"Resume"},{id:"contact",label:"Contact"}];function NA(){const[e,t]=z.useState(!1),[a,r]=z.useState(!1),i=OA(wL.map(c=>c.id));z.useEffect(()=>{const c=()=>t(window.scrollY>12);return c(),window.addEventListener("scroll",c,{passive:!0}),()=>window.removeEventListener("scroll",c)},[]),z.useEffect(()=>(document.body.style.overflow=a?"hidden":"",()=>{document.body.style.overflow=""}),[a]);const o=c=>d=>{var h;d.preventDefault(),r(!1),(h=document.getElementById(c))==null||h.scrollIntoView({behavior:"smooth",block:"start"})};return l.jsxs("header",{className:`navbar ${e?"is-scrolled":""}`,children:[l.jsxs("div",{className:"container navbar__inner",children:[l.jsxs("a",{href:"#home",className:"navbar__brand",onClick:o("home"),"aria-label":"Go to top",children:[l.jsx("span",{className:"navbar__mark",children:"S"}),l.jsx("span",{className:"navbar__name",children:F.name})]}),l.jsx("nav",{className:"navbar__links","aria-label":"Primary",children:wL.map(c=>l.jsx("a",{href:`#${c.id}`,onClick:o(c.id),className:`navbar__link ${i===c.id?"is-active":""}`,children:c.label},c.id))}),l.jsxs("div",{className:"navbar__actions",children:[l.jsx(LS,{compact:!0}),l.jsx("a",{href:"#contact",onClick:o("contact"),className:"btn btn-primary btn-sm navbar__cta",children:"Let’s Connect"}),l.jsx("button",{className:"navbar__burger","aria-label":a?"Close menu":"Open menu","aria-expanded":a,onClick:()=>r(c=>!c),children:a?l.jsx(n1,{size:22}):l.jsx(Vr,{size:22})})]})]}),a&&l.jsx("div",{className:"mobile-menu",role:"dialog","aria-modal":"true",children:l.jsxs("div",{className:"mobile-menu__scroll",children:[l.jsx("nav",{className:"mobile-menu__links","aria-label":"Mobile",children:wL.map(c=>l.jsx("a",{href:`#${c.id}`,onClick:o(c.id),className:`mobile-menu__link ${i===c.id?"is-active":""}`,children:c.label},c.id))}),l.jsxs("div",{className:"mobile-menu__footer",children:[l.jsx("div",{className:"mobile-menu__theme",children:l.jsx(LS,{})}),l.jsx("a",{href:"#contact",onClick:o("contact"),className:"btn btn-primary mobile-menu__cta",children:"Let’s Connect"})]})]})}),l.jsx("style",{children:`
         .navbar {
           position: sticky;
           top: 0;
-          z-index: 100;
+          z-index: 1000;
           border-bottom: 1px solid transparent;
           background: transparent;
           transition: background 0.3s var(--ease), border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
         }
         .navbar.is-scrolled {
-          background: color-mix(in srgb, var(--bg) 78%, transparent);
+          background: color-mix(in srgb, var(--bg) 88%, transparent);
           backdrop-filter: blur(14px);
           -webkit-backdrop-filter: blur(14px);
           border-color: var(--border);
           box-shadow: var(--shadow-sm);
         }
         .navbar__inner {
+          position: relative;
           display: flex;
           align-items: center;
           justify-content: space-between;
-          height: 76px;
+          height: 72px;
           transition: height 0.3s var(--ease);
         }
-        .navbar.is-scrolled .navbar__inner { height: 64px; }
+        .navbar.is-scrolled .navbar__inner { height: 62px; }
 
         .navbar__brand { display: flex; align-items: center; gap: 10px; }
         .navbar__mark {
@@ -7877,7 +7878,15 @@ Error generating stack: `+o.message+`
 
         .navbar__actions { display: flex; align-items: center; gap: 14px; }
         .navbar__cta { display: inline-flex; }
-        .navbar__burger { display: none; background: none; border: none; color: var(--text); cursor: pointer; padding: 4px; }
+        .navbar__burger { 
+          display: none; 
+          background: none; 
+          border: none; 
+          color: var(--text); 
+          cursor: pointer; 
+          padding: 6px; 
+          border-radius: 8px;
+        }
 
         @media (max-width: 1024px) {
           .navbar__links { display: none; }
@@ -7887,28 +7896,58 @@ Error generating stack: `+o.message+`
 
         .mobile-menu {
           position: fixed;
-          inset: 64px 0 0 0;
+          top: 72px;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: calc(100dvh - 72px);
           background: var(--bg);
-          z-index: 99;
-          padding: 24px var(--pad-mobile) 32px;
+          z-index: 999;
+          border-top: 1px solid var(--border);
+          animation: menu-in 0.25s var(--ease);
           display: flex;
           flex-direction: column;
-          gap: 24px;
-          overflow-y: auto;
-          animation: menu-in 0.25s var(--ease);
         }
-        @keyframes menu-in { from { opacity: 0; transform: translateY(-8px);} to { opacity: 1; transform: translateY(0);} }
-        .mobile-menu__links { display: flex; flex-direction: column; gap: 4px; }
+        .navbar.is-scrolled .mobile-menu {
+          top: 62px;
+          height: calc(100dvh - 62px);
+        }
+
+        .mobile-menu__scroll {
+          flex: 1;
+          overflow-y: auto;
+          -webkit-overflow-scrolling: touch;
+          padding: 20px 24px 60px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        @keyframes menu-in { 
+          from { opacity: 0; transform: translateY(-6px); } 
+          to { opacity: 1; transform: translateY(0); } 
+        }
+
+        .mobile-menu__links { display: flex; flex-direction: column; gap: 2px; }
         .mobile-menu__link {
-          padding: 14px 4px;
-          font-size: 18px;
+          padding: 13px 4px;
+          font-size: 17px;
           font-weight: 600;
           color: var(--text-2);
           border-bottom: 1px solid var(--border);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
         }
         .mobile-menu__link.is-active { color: var(--primary); }
-        .mobile-menu__theme { margin-top: 4px; }
-        .mobile-menu__cta { width: 100%; }
+        .mobile-menu__footer {
+          margin-top: 8px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+        .mobile-menu__theme { width: fit-content; }
+        .mobile-menu__cta { width: 100%; text-align: center; }
       `})]})}function UA(){const[e,t]=z.useState(!1),a=()=>{var r;t(!1),(r=document.getElementById("contact"))==null||r.scrollIntoView({behavior:"smooth"})};return l.jsxs("div",{className:"floating-contact",children:[e&&l.jsxs("div",{className:"floating-contact__menu",role:"menu",children:[l.jsxs("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer",className:"floating-contact__item",role:"menuitem",children:[l.jsx(Ae,{size:17})," WhatsApp"]}),l.jsxs("a",{href:le.email,className:"floating-contact__item",role:"menuitem",children:[l.jsx(a1,{size:17})," Email"]}),l.jsxs("a",{href:le.phone,className:"floating-contact__item",role:"menuitem",children:[l.jsx(Xn,{size:17})," Call"]}),l.jsxs("button",{className:"floating-contact__item",onClick:a,role:"menuitem",children:[l.jsx(Fr,{size:17})," Contact Form"]})]}),l.jsx("button",{className:`floating-contact__trigger ${e?"is-open":""}`,onClick:()=>t(r=>!r),"aria-label":e?"Close contact menu":"Open contact menu","aria-expanded":e,children:e?l.jsx(n1,{size:22}):l.jsx(Br,{size:22})}),l.jsx("style",{children:`
         .floating-contact {
           position: fixed;
@@ -7948,7 +7987,7 @@ Error generating stack: `+o.message+`
           .floating-contact { right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
           .floating-contact__trigger { width: 50px; height: 50px; }
         }
-      `})]})}const A1={github:"https://github.com/Sufiyan-quraishi",linkedin:"https://www.linkedin.com/in/mohammad-sufiyan-quraishi/"},ZA="/sufiyan-portfolio/assets/mohammad-sufiyan-C7PHkO10.jpg",WA="/sufiyan-portfolio/assets/Mohammad_Sufiyan_Resume-Be23YnH5.pdf",GA="/sufiyan-portfolio/assets/hero-dark-BGbSlQZz.jpg",XA="/sufiyan-portfolio/assets/hero-light-D6ikohx4.jpg",$A="/sufiyan-portfolio/assets/how-it-works-Eckh-Lkl.jpg",CS="/sufiyan-portfolio/assets/admin-control-center-D5fnIWaM.jpg",IS="/sufiyan-portfolio/assets/hero-BcCWU4GL.jpg",KA="/sufiyan-portfolio/assets/about-Bu4lA_Ak.jpg",QA="/sufiyan-portfolio/assets/workflow-CJ_5p6QG.jpg",JA="/sufiyan-portfolio/assets/tech-stack-C0EvEC7h.jpg",YA="/sufiyan-portfolio/assets/java-fullstack-simplilearn-T0G7dTug.jpg",fe={profile:{photo:ZA},resume:{pdf:WA,fileName:"Mohammad_Sufiyan_Resume.pdf"},projects:{eduManage:{gallery:[{src:GA,caption:"Landing page — dark mode"},{src:CS,caption:"Admin Control Center — core operational modules"},{src:XA,caption:"Landing page — light mode"},{src:$A,caption:"How It Works — enrollment to certification flow"}],cover:CS},resumeAi:{gallery:[{src:IS,caption:"Home — AI resume & cover letter tool"},{src:QA,caption:"Product workflow — draft, tailor, check against the job description"},{src:KA,caption:"About — what the product does"},{src:JA,caption:"About — how it is built (tech stack)"}],cover:IS}},certificates:{javaFullStack:YA}},eH=[{label:"Java",style:{top:"8%",left:"-8%"}},{label:"Spring Boot",style:{top:"28%",right:"-12%"}},{label:"React",style:{bottom:"20%",left:"-10%"}},{label:"REST APIs",style:{bottom:"4%",right:"-6%"}}];function tH(){const e=t=>{var a;t.preventDefault(),(a=document.getElementById("projects"))==null||a.scrollIntoView({behavior:"smooth"})};return l.jsxs("section",{id:"home",className:"hero",children:[l.jsx("div",{className:"hero__glow","aria-hidden":"true"}),l.jsx("div",{className:"hero__grid","aria-hidden":"true"}),l.jsxs("div",{className:"container hero__inner",children:[l.jsxs("div",{className:"hero__copy",children:[l.jsx("span",{className:"hero__badge",children:F.heroBadge}),l.jsxs("h1",{className:"hero__heading",children:[F.heroHeadingPrefix," ",l.jsx("span",{className:"text-gradient",children:F.heroHeadingHighlight})]}),l.jsx("p",{className:"hero__desc",children:F.heroDescription}),l.jsxs("div",{className:"hero__ctas",children:[l.jsxs("a",{href:"#projects",onClick:e,className:"btn btn-primary",children:["View My Work ",l.jsx(Nn,{size:17})]}),l.jsxs("a",{href:fe.resume.pdf,download:fe.resume.fileName,className:"btn btn-secondary",children:[l.jsx(j1,{size:17})," Download Resume"]})]}),l.jsxs("div",{className:"hero__quick","aria-label":"Quick contact",children:[l.jsx("a",{href:A1.github,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"GitHub",children:l.jsx($e,{size:18})}),l.jsx("a",{href:A1.linkedin,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"LinkedIn",children:l.jsx(kn,{size:18})}),l.jsx("a",{href:le.email,className:"hero__quick-link","aria-label":"Email",children:l.jsx(a1,{size:18})}),l.jsx("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"WhatsApp",children:l.jsx(Ae,{size:18})})]})]}),l.jsx("div",{className:"hero__visual",children:l.jsxs("div",{className:"hero__portrait-wrap",children:[l.jsx("div",{className:"hero__portrait-glow","aria-hidden":"true"}),l.jsx("img",{src:fe.profile.photo,alt:`Portrait of ${F.name}, ${F.title}`,className:"hero__portrait",loading:"eager"}),eH.map(t=>l.jsx("span",{className:"hero__tech-tag",style:t.style,children:t.label},t.label))]})})]}),l.jsx("style",{children:`
+      `})]})}const A1={github:"https://github.com/Sufiyan-quraishi",linkedin:"https://www.linkedin.com/in/mohammad-sufiyan-quraishi/"},ZA="/sufiyan-portfolio/assets/mohammad-sufiyan-osIPvTtl.jpg",WA="/sufiyan-portfolio/assets/Mohammad_Sufiyan_Resume-Be23YnH5.pdf",GA="/sufiyan-portfolio/assets/hero-dark-BGbSlQZz.jpg",XA="/sufiyan-portfolio/assets/hero-light-D6ikohx4.jpg",$A="/sufiyan-portfolio/assets/how-it-works-Eckh-Lkl.jpg",CS="/sufiyan-portfolio/assets/admin-control-center-D5fnIWaM.jpg",IS="/sufiyan-portfolio/assets/hero-BcCWU4GL.jpg",KA="/sufiyan-portfolio/assets/about-Bu4lA_Ak.jpg",QA="/sufiyan-portfolio/assets/workflow-CJ_5p6QG.jpg",JA="/sufiyan-portfolio/assets/tech-stack-C0EvEC7h.jpg",YA="/sufiyan-portfolio/assets/java-fullstack-simplilearn-T0G7dTug.jpg",fe={profile:{photo:ZA},resume:{pdf:WA,fileName:"Mohammad_Sufiyan_Resume.pdf"},projects:{eduManage:{gallery:[{src:GA,caption:"Landing page — dark mode"},{src:CS,caption:"Admin Control Center — core operational modules"},{src:XA,caption:"Landing page — light mode"},{src:$A,caption:"How It Works — enrollment to certification flow"}],cover:CS},resumeAi:{gallery:[{src:IS,caption:"Home — AI resume & cover letter tool"},{src:QA,caption:"Product workflow — draft, tailor, check against the job description"},{src:KA,caption:"About — what the product does"},{src:JA,caption:"About — how it is built (tech stack)"}],cover:IS}},certificates:{javaFullStack:YA}},eH=[{label:"Java",style:{top:"8%",left:"-8%"}},{label:"Spring Boot",style:{top:"28%",right:"-12%"}},{label:"React",style:{bottom:"20%",left:"-10%"}},{label:"REST APIs",style:{bottom:"4%",right:"-6%"}}];function tH(){const e=t=>{var a;t.preventDefault(),(a=document.getElementById("projects"))==null||a.scrollIntoView({behavior:"smooth"})};return l.jsxs("section",{id:"home",className:"hero",children:[l.jsx("div",{className:"hero__glow","aria-hidden":"true"}),l.jsx("div",{className:"hero__grid","aria-hidden":"true"}),l.jsxs("div",{className:"container hero__inner",children:[l.jsxs("div",{className:"hero__copy",children:[l.jsx("span",{className:"hero__badge",children:F.heroBadge}),l.jsxs("h1",{className:"hero__heading",children:[F.heroHeadingPrefix," ",l.jsx("span",{className:"text-gradient",children:F.heroHeadingHighlight})]}),l.jsx("p",{className:"hero__desc",children:F.heroDescription}),l.jsxs("div",{className:"hero__ctas",children:[l.jsxs("a",{href:"#projects",onClick:e,className:"btn btn-primary",children:["View My Work ",l.jsx(Nn,{size:17})]}),l.jsxs("a",{href:fe.resume.pdf,download:fe.resume.fileName,className:"btn btn-secondary",children:[l.jsx(j1,{size:17})," Download Resume"]})]}),l.jsxs("div",{className:"hero__quick","aria-label":"Quick contact",children:[l.jsx("a",{href:A1.github,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"GitHub",children:l.jsx($e,{size:18})}),l.jsx("a",{href:A1.linkedin,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"LinkedIn",children:l.jsx(kn,{size:18})}),l.jsx("a",{href:le.email,className:"hero__quick-link","aria-label":"Email",children:l.jsx(a1,{size:18})}),l.jsx("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer",className:"hero__quick-link","aria-label":"WhatsApp",children:l.jsx(Ae,{size:18})})]})]}),l.jsx("div",{className:"hero__visual",children:l.jsxs("div",{className:"hero__portrait-wrap",children:[l.jsx("div",{className:"hero__portrait-glow","aria-hidden":"true"}),l.jsx("img",{src:fe.profile.photo,alt:`Portrait of ${F.name}, ${F.title}`,className:"hero__portrait",loading:"eager"}),eH.map(t=>l.jsx("span",{className:"hero__tech-tag",style:t.style,children:t.label},t.label))]})})]}),l.jsx("style",{children:`
         .hero {
           position: relative;
           overflow: hidden;
@@ -8552,44 +8591,136 @@ Error generating stack: `+o.message+`
           .final-cta__inner { padding: 52px 18px; }
         }
       `})]})}const UH=[{id:"home",label:"Home"},{id:"about",label:"About"},{id:"skills",label:"Skills"},{id:"projects",label:"Projects"},{id:"experience",label:"Experience"},{id:"certificates",label:"Certificates"},{id:"resume",label:"Resume"},{id:"contact",label:"Contact"}];function ZH(){const e=t=>a=>{var r;a.preventDefault(),(r=document.getElementById(t))==null||r.scrollIntoView({behavior:"smooth"})};return l.jsxs("footer",{className:"footer",children:[l.jsxs("div",{className:"container footer__top",children:[l.jsxs("div",{className:"footer__brand",children:[l.jsxs("div",{className:"footer__brand-row",children:[l.jsx("span",{className:"navbar__mark footer__mark",children:"S"}),l.jsx("span",{className:"footer__name",children:F.name})]}),l.jsx("p",{className:"footer__tagline",children:"Full Stack Developer building practical software experiences."})]}),l.jsx("nav",{className:"footer__nav","aria-label":"Footer",children:UH.map(t=>l.jsx("a",{href:`#${t.id}`,onClick:e(t.id),children:t.label},t.id))}),l.jsxs("div",{className:"footer__social",children:[l.jsx("a",{href:A1.github,target:"_blank",rel:"noreferrer","aria-label":"GitHub",children:l.jsx($e,{size:18})}),l.jsx("a",{href:A1.linkedin,target:"_blank",rel:"noreferrer","aria-label":"LinkedIn",children:l.jsx(kn,{size:18})}),l.jsx("a",{href:le.email,"aria-label":"Email",children:l.jsx(a1,{size:18})}),l.jsx("a",{href:le.whatsapp,target:"_blank",rel:"noreferrer","aria-label":"WhatsApp",children:l.jsx(Ae,{size:18})})]})]}),l.jsx("div",{className:"footer__bottom",children:l.jsxs("div",{className:"container footer__bottom-inner",children:[l.jsxs("span",{children:["© 2026 ",F.name,". All rights reserved."]}),l.jsx("a",{href:"#contact",onClick:e("contact"),children:"Let’s Connect"})]})}),l.jsx("style",{children:`
-        .footer { border-top: 1px solid var(--border); margin-top: 64px; }
+        .footer { 
+          border-top: 1px solid var(--border); 
+          margin-top: 64px; 
+          width: 100%;
+          overflow: hidden;
+          background: var(--surface);
+        }
         .footer__top {
-          padding: 56px 0 40px;
+          padding: 48px 24px 36px;
           display: grid;
           grid-template-columns: 1.2fr 1.4fr 0.6fr;
           gap: 32px;
           align-items: start;
+          box-sizing: border-box;
         }
-        .footer__brand-row { display: flex; align-items: center; gap: 10px; }
-        .footer__mark { width: 30px; height: 30px; font-size: 13px; }
-        .footer__name { font-weight: 700; font-size: 15px; }
-        .footer__tagline { margin-top: 12px; font-size: 14px; color: var(--text-2); max-width: 260px; line-height: 1.6; }
+        .footer__brand {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .footer__brand-row { 
+          display: flex; 
+          align-items: center; 
+          gap: 10px; 
+        }
+        .footer__mark { 
+          width: 32px; 
+          height: 32px; 
+          font-size: 14px; 
+          border-radius: 8px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, var(--blue), var(--cyan));
+          color: white;
+          font-weight: 800;
+          flex-shrink: 0;
+        }
+        .footer__name { 
+          font-weight: 700; 
+          font-size: 16px; 
+          color: var(--text);
+        }
+        .footer__tagline { 
+          margin-top: 12px; 
+          font-size: 14px; 
+          color: var(--text-2); 
+          max-width: 280px; 
+          line-height: 1.6; 
+          text-align: left;
+        }
 
-        .footer__nav { display: flex; flex-wrap: wrap; gap: 10px 20px; align-content: start; }
-        .footer__nav a { font-size: 14px; color: var(--text-2); }
-        .footer__nav a:hover { color: var(--primary); }
+        .footer__nav { 
+          display: flex; 
+          flex-wrap: wrap; 
+          gap: 12px 20px; 
+          align-content: start; 
+        }
+        .footer__nav a { 
+          font-size: 14px; 
+          font-weight: 500;
+          color: var(--text-2); 
+          transition: color 0.2s ease;
+        }
+        .footer__nav a:hover { 
+          color: var(--primary); 
+        }
 
-        .footer__social { display: flex; gap: 10px; justify-content: flex-end; }
+        .footer__social { 
+          display: flex; 
+          gap: 10px; 
+          justify-content: flex-end; 
+        }
         .footer__social a {
-          width: 38px; height: 38px; border-radius: 50%;
-          display: flex; align-items: center; justify-content: center;
-          background: var(--surface-2); border: 1px solid var(--border); color: var(--text-2);
+          width: 38px; 
+          height: 38px; 
+          border-radius: 50%;
+          display: flex; 
+          align-items: center; 
+          justify-content: center;
+          background: var(--surface-2); 
+          border: 1px solid var(--border); 
+          color: var(--text-2);
+          transition: all 0.2s ease;
         }
-        .footer__social a:hover { color: var(--primary); border-color: var(--primary); }
+        .footer__social a:hover { 
+          color: var(--primary); 
+          border-color: var(--primary); 
+          transform: translateY(-2px);
+        }
 
-        .footer__bottom { border-top: 1px solid var(--border); }
-        .footer__bottom-inner {
-          padding: 20px 0;
-          display: flex; align-items: center; justify-content: space-between; gap: 12px;
-          font-size: 13px; color: var(--muted);
+        .footer__bottom { 
+          border-top: 1px solid var(--border); 
+          width: 100%;
         }
-        .footer__bottom-inner a { color: var(--primary); font-weight: 600; }
+        .footer__bottom-inner {
+          padding: 20px 24px;
+          display: flex; 
+          align-items: center; 
+          justify-content: space-between; 
+          gap: 12px;
+          font-size: 13px; 
+          color: var(--muted);
+          box-sizing: border-box;
+        }
+        .footer__bottom-inner a { 
+          color: var(--primary); 
+          font-weight: 600; 
+        }
 
         @media (max-width: 900px) {
-          .footer__top { grid-template-columns: 1fr; }
-          .footer__social { justify-content: flex-start; }
+          .footer__top { 
+            grid-template-columns: 1fr; 
+            gap: 28px;
+            padding: 40px 20px 32px;
+          }
+          .footer__social { 
+            justify-content: flex-start; 
+          }
         }
+
         @media (max-width: 480px) {
-          .footer__bottom-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
+          .footer__top {
+            padding: 36px 18px 28px;
+          }
+          .footer__bottom-inner { 
+            padding: 18px 18px;
+            flex-direction: column; 
+            align-items: flex-start; 
+            gap: 10px; 
+          }
         }
       `})]})}function WH(){return l.jsxs(DA,{children:[l.jsx(NA,{}),l.jsxs("main",{children:[l.jsx(tH,{}),l.jsx(rH,{}),l.jsx(iH,{}),l.jsx(cH,{}),l.jsx(uH,{}),l.jsx(fH,{}),l.jsx(vH,{}),l.jsx(MH,{}),l.jsx(xH,{}),l.jsx(wH,{}),l.jsx(OH,{}),l.jsx(NH,{})]}),l.jsx(ZH,{}),l.jsx(UA,{})]})}CL.createRoot(document.getElementById("root")).render(l.jsx(xz.StrictMode,{children:l.jsx(RA,{children:l.jsx(WH,{})})}));
